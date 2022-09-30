@@ -4,56 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>css</title>
 
-    <link rel ="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>MK6 NOTES</h1>
+    <h1>CSS</h1>
+
 
     <h2>Example of Box properties</h2>
-    <p>London is the capital of england.
-        it is the most popular city in the United Kingdom,
-        with metropolitan area of over 13 milion inhabitants
-    </p>
+    <p>London is the capital city of England. It is the most populous 
+        city in the United Kingdom, with a metropolitan area of over 
+        13 million inhabitants.</p>
 
-    <h2>Example of list properties</h2>
+<h2>Example of List properties:</h2>
 
-    <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Coca cola</li>
-    </ul>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
 
-    <h3>Example of Border Properties</h3><br>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
 
-    <h4>Example of type properties</h4>
+<h3>Example of Border Properties</h3>
 
-    <p>EXAMPLE OF BLOCK ROPERTIES
-        we will eat first, then will have to talk</p><br>
-    <p><a href="index.html">we will eat first, then we will talk</a></p><br>
+<h2>Child Selector</h2>
 
-    <p>THIS IS EXAMPLE OF @MEDIA</p>
+<p>The child selector (>) selects all elements that are the children of a specified element.</p>
 
-    <div>
-        <p>The descendant selector matches all elements that are descendants of a specified element.</p>
-        <p>Paragraph 1 in the div.</p>
-        <p>Paragraph 2 in the div.</p>
-      </div>
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section>
+    <!-- not Child but Descendant -->
+    <p>Paragraph 3 in the div (inside a section element).</p>
+  </section>
+  <p>Paragraph 4 in the div.</p>
+</div>
 
-      <div>
-        <p>The child selector (>) selects all elements that are the children of a specified element.</p>
-       <p>Paragraph 1 in the div.</p>
-       <p>Paragraph 2 in the div.</p>
-       <section>
-     <p>Paragraph 3 in the div (inside a section element).</p>
-       </section>
-       <p>Paragraph 4 in the div.</p>
-     </div>
-     <p>Paragraph 5. Not in a div.</p>
-     <p>Paragraph 6. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
 
-     <p>The + selector is used to select an element that is directly after another specific element.</p>
+<h2>Adjacent Sibling Selector</h2>
+
+<p>The + selector is used to select an element that is directly after another specific element.</p>
 <p>The following example selects the first p element that are placed immediately after div elements:</p>
 
 <div>
@@ -69,8 +69,22 @@
   <p>Paragraph 6 in the div.</p>
 </div>
 
-
 <p>Paragraph 7. After a div.</p>
 <p>Paragraph 8. After a div.</p>
+
+<h2>Descendant Selector</h2>
+
+<p>The descendant selector matches all elements that are descendants of a specified element.</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section><p>Paragraph 3 in the div.</p></section>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+
+
 </body>
 </html>
