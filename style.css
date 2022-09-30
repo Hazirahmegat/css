@@ -1,0 +1,33 @@
+h1{
+    color: rgba(237, 40, 40, 0.603);
+    background-color:rgb(201, 128, 191);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+body{
+    background-color: yellow;
+}
+
+p{
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
+
+ul{
+   list-style-type: square; 
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+h3{
+    border-bottom: 5px dotted purple;
+    position: sticky;
+    position: absolute;
+}
+
